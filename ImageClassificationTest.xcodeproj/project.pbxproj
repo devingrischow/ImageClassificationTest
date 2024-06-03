@@ -11,6 +11,9 @@
 		234BC2212C0CEADC003830FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BC2202C0CEADC003830FC /* ContentView.swift */; };
 		234BC2232C0CEADD003830FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234BC2222C0CEADD003830FC /* Assets.xcassets */; };
 		234BC2262C0CEADD003830FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234BC2252C0CEADD003830FC /* Preview Assets.xcassets */; };
+		234BC22D2C0CEE7A003830FC /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BC22C2C0CEE7A003830FC /* CameraPreview.swift */; };
+		234BC22F2C0CF094003830FC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234BC22E2C0CF094003830FC /* ContentViewModel.swift */; };
+		234BC2312C0E2A3A003830FC /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 234BC2302C0E2A3A003830FC /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		234BC2202C0CEADC003830FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		234BC2222C0CEADD003830FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234BC2252C0CEADD003830FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		234BC22C2C0CEE7A003830FC /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		234BC22E2C0CF094003830FC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		234BC2302C0E2A3A003830FC /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				234BC21E2C0CEADC003830FC /* ImageClassificationTestApp.swift */,
 				234BC2202C0CEADC003830FC /* ContentView.swift */,
+				234BC2302C0E2A3A003830FC /* MobileNet.mlmodel */,
+				234BC22C2C0CEE7A003830FC /* CameraPreview.swift */,
+				234BC22E2C0CF094003830FC /* ContentViewModel.swift */,
 				234BC2222C0CEADD003830FC /* Assets.xcassets */,
 				234BC2242C0CEADD003830FC /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234BC22F2C0CF094003830FC /* ContentViewModel.swift in Sources */,
+				234BC2312C0E2A3A003830FC /* MobileNet.mlmodel in Sources */,
+				234BC22D2C0CEE7A003830FC /* CameraPreview.swift in Sources */,
 				234BC2212C0CEADC003830FC /* ContentView.swift in Sources */,
 				234BC21F2C0CEADC003830FC /* ImageClassificationTestApp.swift in Sources */,
 			);
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = 4DZJGNL44Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"This App uses camera to help identify objects and mark them out\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = 4DZJGNL44Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"This App uses camera to help identify objects and mark them out\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
